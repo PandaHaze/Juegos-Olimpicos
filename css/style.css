@@ -106,17 +106,18 @@ a{
 }
 
 .navbar .logo{
-    height: 70px;
+    height: 60px;
 }
 
 .navbar .flag{
-    height: 70px;
+    height: 60px;
 }
 
 .navbar a{
     color: black;
     text-transform: uppercase;
     font-weight: 600;
+    text-decoration: none;
 
 }
 
@@ -142,6 +143,13 @@ a{
 
 .showcase{
     background: url('../img/background-showcase.avif') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+    margin-bottom: -50px;
+}
+
+.showcase-1{
+    background: url('https://img.freepik.com/vector-gratis/fondo-azul-degradado-ondulado_23-2149112677.jpg?t=st=1736794040~exp=1736797640~hmac=61c713749e4a86f4bb868564665c73412d203765b47a8d518ecad9805809de84&w=1480') no-repeat center center/cover;
     color: white;
     padding: 50px 0;
     margin-bottom: -50px;
@@ -412,3 +420,64 @@ font-size: 2rem;
 }
 
 
+/* Deportes Bootstrap*/
+
+p .text-p{
+margin-bottom: 0 !important;
+text-transform: uppercase;
+}
+
+.titulo-deportes{
+    font-weight: 7rem bold;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.pt-6{
+ padding-top: 200px;
+}
+
+.pt-7{
+    padding-top: 490px;
+}
+
+.box-1{
+    background: url('https://img.freepik.com/foto-gratis/cerrar-boxer-vendarse-manos_158595-4839.jpg?t=st=1736787056~exp=1736790656~hmac=d7f3b762f633befb60f9a2d4a5de30943613403d6c376a736c2f4436692efa04&w=1480');
+}
+
+.box-2{
+    background: url('https://img.freepik.com/foto-gratis/nadador-masculino-atletico-mirando-otro-lado_23-2148326811.jpg?t=st=1736788573~exp=1736792173~hmac=8b72558f62ea17376b47908faefd324a05a38015a144bf6edc556dbafc50d539&w=1480');
+}
+
+.box-3{
+    background: url('https://img.freepik.com/foto-gratis/tiro-medio-personas-asiaticas-practicando-taekwondo_23-2150753763.jpg?t=st=1736788709~exp=1736792309~hmac=64c3929329fd1950d3176e4b6350d0f83fbcd5e1795c950fde6cd750940146fb&w=1480');
+}
+
+.box-4{
+    background: url('https://img.freepik.com/foto-gratis/fondo-verde-hierba-falsa_53876-16313.jpg?t=st=1736788982~exp=1736792582~hmac=c2bd8be258fbd1264d1e572daae8512a99051a84adbc4e4facfbb42cab9889e6&w=1480');
+}
+
+.box-5{
+    background: url('https://img.freepik.com/foto-gratis/jugadora-tenis-cancha-tenis_1303-23234.jpg?t=st=1736788836~exp=1736792436~hmac=4b884e86d83562aa4933fa81061832f52330f9bce4862bde32db35c48cbaa267&w=1480');
+}
+
+.box-6{
+    background: url('https://img.freepik.com/foto-gratis/amigos-viendo-deportes-sala-estar_53876-26160.jpg?t=st=1736789299~exp=1736792899~hmac=364f87617cfc5db28b6aa0189296cee23853c918fa65204f29851d8a010dbdf5&w=1480');
+}
+
+.box-7{
+    background: url('https://img.freepik.com/foto-gratis/adolescente-pelota-baloncesto_23-2148800919.jpg?t=st=1736789375~exp=1736792975~hmac=0e2df0ce6e2d25b72a4c417d3ea610acebad0551d8363c9dac7f4cbc54593750&w=1480');
+}
+
+.box{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: auto;
+}
+
+.row{
+    padding-right: 0;
+    padding-left: 0;
+}
