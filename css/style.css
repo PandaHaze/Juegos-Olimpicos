@@ -394,6 +394,110 @@ a {
   height: 300px;              
 }
 
+/* Contacto */
 
+.container2{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 30px;
+
+}
+
+.display-1{
+font-size: 4rem;
+}
+
+.large{
+font-size: 20px;
+}
+
+.small{
+font-size: 12px;
+}
+
+.btn-contacto{
+    background: #C0C0C0;
+    color: rgb(16, 16, 16);
+    border: none;
+    padding: 12px 23px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;  
+    border-radius: 10px;  
+}
+
+.btn-contacto:hover{
+    color: #e7e717  ;
+}
+
+form input{
+width: 300px;
+padding: 7px 12px;
+font-size: 1rem;
+line-height: 1.5;
+background: transparent;
+border: 1px solid #0d0d0d;
+border-radius: 4px;
+color: #131212;
+border-radius: 10px;
+}
+
+.container3{
+    background: url(https://img.freepik.com/foto-gratis/disposicion-vista-superior-futbolista-abstract-estilo-papel_23-2148930676.jpg?t=st=1738784872~exp=1738788472~hmac=2878da311a17cd17da4b3e08b61d5b37e983f1716266072f751be227b9075183&w=1800);  
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container3 h1{
+    font-family: "Bokor", static;
+    font-weight: 800;
+    color: rgba(11, 3, 3, 0.7);
+}
+
+.container3 p{
+    width: 70%;
+    padding-bottom: 15px;
+    color: #03010a;
+}
+
+.img-contacto{
+    background: url(https://img.freepik.com/foto-gratis/representacion-3d-planeta-tierra_23-2150498436.jpg?t=st=1732402559~exp=1732406159~hmac=c67a14684c3522052f42e4bdaadc98e0c4fb3907fbe338423fb4c2dfed00798a&w=1060);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    margin-left: 600px;
+}
+
+.img-contacto:hover{
+    transform: scale(1.2);
+}
+
+.footer-1 a{ 
+    color: rgba(0, 0, 0, 0.7);
+    padding-right: 10px;
+}
+
+@media(max-width: 768px) {
+    .container3 p{
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .img{
+        margin: 0 auto;
+    }
+}
 
 /*# sourceMappingURL=style.css.map */
